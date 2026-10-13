@@ -1,94 +1,146 @@
-<h1 align="center">lucao019</h1>
-<p align="center">Software • Hardware • Automation • System Optimization</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-Practical%20Engineering-111827?style=flat-square" alt="Focus: Practical Engineering" />
-  <img src="https://img.shields.io/badge/Workflow-Build%20%7C%20Test%20%7C%20Improve-111827?style=flat-square" alt="Workflow: Build, Test, Improve" />
-</p>
+<!-- HEADER ANIMADO -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:111827,100:1a1a2e&height=200&section=header&text=lucao019&fontSize=55&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Software%20%E2%80%A2%20Hardware%20%E2%80%A2%20Automation%20%E2%80%A2%20System%20Optimization&descAlignY=60&descSize=15&descColor=a78bfa"/>
 
-<table>
-<tr>
-<td width="42%" valign="top">
-<pre>
- _   _  ____   ____  ___
-| | | |/ ___| / ___|/ _ \
-| | | | |    | |   | | | |
-| |_| | |___ | |___| |_| |
- \___/ \____| \____|\___/
+<!-- TYPING ANIMATION -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=a78bfa&center=true&width=500&lines=JavaScript+%7C+TypeScript+%7C+Node.js+%7C+Python;React+%7C+Vite+%7C+Next.js+%7C+Express;Discord+Bots+%7C+OBS+Overlays+%7C+CLI+Tools;Build+%E2%86%92+Test+%E2%86%92+Measure+%E2%86%92+Refine" alt="Typing SVG"/>
+</a>
 
-lucao019@github
--------------------------
-FOCUS: problem solving
-METHOD: prototype -> test
-        -> measure -> refine
-STATUS: always building
-</pre>
-</td>
-<td width="58%" valign="top">
-<h3><code>system.profile</code></h3>
-<p>
-<strong>Main focus:</strong> practical software projects and PC/system optimization<br />
-<strong>Building with:</strong> JavaScript, TypeScript, Node.js, Python and PowerShell<br />
-<strong>Web:</strong> HTML, CSS, React, Vite and Next.js<br />
-<strong>Backend &amp; data:</strong> Express, REST APIs and SQLite<br />
-<strong>Integrations:</strong> Discord bots, OBS overlays and local-network tools<br />
-<strong>Tools:</strong> Git, Windows, FFmpeg and command-line workflows
-</p>
-<pre>
-IDEA
-  -> small implementation
-  -> real-world test
-  -> inspect the result
-  -> fix or keep
-  -> checkpoint with Git
-</pre>
-</td>
-</tr>
-</table>
+<br/>
+
+<!-- BADGES -->
+<img src="https://komarev.com/ghpvc/?username=lucao019&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" alt="Profile Views"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Focus-Practical%20Engineering-7c3aed?style=for-the-badge&labelColor=0d1117" alt="Focus"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Status-Always%20Building-f59e0b?style=for-the-badge&labelColor=0d1117" alt="Status"/>
+
+</div>
 
 ---
 
-## Projects
+## 🧠 system.profile
 
-### [PUBG-STATS](https://github.com/lucao019/PUBG-STATS)
-A local PUBG statistics overlay for OBS. Uses Node.js/Express, PUBG data and a browser-based interface to display daily kills, damage, matches and weapon performance.
-
-**Stack:** JavaScript · Node.js · Express · HTML · CSS · REST API
-
-### [CheckIn — Discord Bot](https://github.com/lucao019/discord-checkin-bot)
-A TypeScript Discord bot that detects new members and creates profile cards with account, server and profile details.
-
-**Stack:** TypeScript · Node.js · discord.js · Sharp · PM2
-
-### [LUCAO LINK](https://github.com/lucao019/cam-audio-to-windows)
-An Android-to-Windows project for sending a phone camera stream to a PC over the local network. The video path has been tested; microphone streaming and other features remain in development.
-
-**Stack:** Android · Node.js · TCP/IP · H.264 · FFmpeg/FFplay
+```typescript
+const lucao019 = {
+  focus:        "Practical software projects and PC/system optimization",
+  languages:    ["JavaScript", "TypeScript", "Python", "PowerShell"],
+  web:          ["HTML", "CSS", "React", "Vite", "Next.js"],
+  backend:      ["Node.js", "Express", "REST APIs", "SQLite"],
+  integrations: ["Discord Bots", "OBS Overlays", "Local-network Tools"],
+  tools:        ["Git", "Windows", "FFmpeg", "CLI Workflows"],
+  method:       "prototype -> test -> measure -> refine",
+  status:       "always building 🚀",
+};
+```
 
 ---
 
-## Technologies
+<div align="center">
 
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-</p>
+## ⚡ Tech Stack
+
+<br/>
+
+**Languages**
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=js,ts,python,powershell&perline=6"/>
+</a>
+
+<br/><br/>
+
+**Frontend**
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=html,css,react,vite,nextjs&perline=6"/>
+</a>
+
+<br/><br/>
+
+**Backend & Data**
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,sqlite&perline=6"/>
+</a>
+
+<br/><br/>
+
+**Tools**
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,discord,linux&perline=6"/>
+</a>
+
+</div>
 
 ---
 
-## GitHub
+<div align="center">
 
-<p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=lucao019&show_icons=true&hide_border=true&theme=transparent" alt="GitHub statistics for lucao019" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucao019&layout=compact&hide_border=true&theme=transparent" alt="Most used languages for lucao019" />
-</p>
+## 📊 GitHub Stats
+
+<br/>
+
+<img height="195" src="https://github-readme-stats.vercel.app/api?username=lucao019&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=f59e0b&text_color=c9d1d9&ring_color=7c3aed" alt="GitHub Stats"/>
+&nbsp;
+<img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucao019&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&langs_count=8" alt="Top Langs"/>
+
+<br/><br/>
+
+<img width="60%" src="https://streak-stats.demolab.com/?user=lucao019&theme=tokyonight&hide_border=true&background=0d1117&ring=a78bfa&fire=f59e0b&currStreakLabel=a78bfa&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e" alt="GitHub Streak"/>
+
+<br/><br/>
+
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=lucao019&bg_color=0d1117&color=a78bfa&line=7c3aed&point=f59e0b&area=true&area_color=7c3aed&hide_border=true&custom_title=lucao019's%20Contribution%20Graph" alt="Activity Graph"/>
+
+</div>
 
 ---
 
-<p align="center"><sub>Built through practical projects, testing, debugging and iteration.</sub></p>
+## 🔥 Projects
+
+<div align="center">
+
+<!-- PUBG STATS -->
+<a href="https://github.com/lucao019/PUBG-STATS">
+  <img src="https://img.shields.io/badge/PUBG--STATS-0d1117?style=for-the-badge&logo=github&logoColor=a78bfa&labelColor=0d1117" alt="PUBG-STATS"/>
+  <img src="https://img.shields.io/badge/TYPE-OBS%20Overlay-f59e0b?style=for-the-badge&labelColor=0d1117" alt="type"/>
+  <img src="https://img.shields.io/badge/STACK-Node.js%20%7C%20Express-a78bfa?style=for-the-badge&labelColor=0d1117" alt="stack"/>
+</a>
+
+<br/>
+<sub>Local PUBG statistics overlay for OBS — kills, damage, matches, weapon performance</sub>
+
+<br/><br/>
+
+<!-- CHECKIN BOT -->
+<a href="https://github.com/lucao019/discord-checkin-bot">
+  <img src="https://img.shields.io/badge/CheckIn%20Bot-0d1117?style=for-the-badge&logo=discord&logoColor=a78bfa&labelColor=0d1117" alt="CheckIn Bot"/>
+  <img src="https://img.shields.io/badge/TYPE-Discord%20Bot-f59e0b?style=for-the-badge&labelColor=0d1117" alt="type"/>
+  <img src="https://img.shields.io/badge/STACK-TypeScript%20%7C%20discord.js-a78bfa?style=for-the-badge&labelColor=0d1117" alt="stack"/>
+</a>
+
+<br/>
+<sub>Detects new members and creates profile cards with account, server and profile details</sub>
+
+<br/><br/>
+
+<!-- LUCAO LINK -->
+<a href="https://github.com/lucao019/cam-audio-to-windows">
+  <img src="https://img.shields.io/badge/LUCAO%20LINK-0d1117?style=for-the-badge&logo=android&logoColor=a78bfa&labelColor=0d1117" alt="LUCAO LINK"/>
+  <img src="https://img.shields.io/badge/TYPE-Android%20→%20PC%20Stream-f59e0b?style=for-the-badge&labelColor=0d1117" alt="type"/>
+  <img src="https://img.shields.io/badge/STACK-Node.js%20%7C%20FFmpeg%20%7C%20TCP-a78bfa?style=for-the-badge&labelColor=0d1117" alt="stack"/>
+</a>
+
+<br/>
+<sub>Phone camera stream to PC over local network — H.264 video tested, mic streaming in development</sub>
+
+</div>
+
+---
+
+<!-- FOOTER ANIMADO -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:111827,100:0f0c29&height=120&section=footer&animation=twinkling"/>
