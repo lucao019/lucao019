@@ -21,16 +21,66 @@
 
 ---
 
+## 🎮 Open Source Contribution — Bloodborne PC (Windows Port)
+
+<div align="center">
+
+<a href="https://github.com/lucao019/bloodborne_pc_windows_port">
+  <img src="https://img.shields.io/badge/bloodborne__pc__windows__port-0d1117?style=for-the-badge&logo=github&logoColor=a78bfa&labelColor=0d1117" alt="bloodborne_pc_windows_port"/>
+  <img src="https://img.shields.io/badge/TYPE-C%2B%2B%20%7C%20CMake%20%7C%20Build%20Systems-f59e0b?style=for-the-badge&labelColor=0d1117" alt="type"/>
+  <img src="https://img.shields.io/badge/PLATFORM-Windows%2011%20%7C%20MSYS2%20UCRT64-a78bfa?style=for-the-badge&labelColor=0d1117" alt="platform"/>
+</a>
+
+<br/><br/>
+
+<sub>
+Fork of <a href="https://github.com/Mrsuss60/bloodborne_pc_windows_port">Mrsuss60/bloodborne_pc_windows_port</a> —
+native Windows build fixes that were missing from the original repository
+</sub>
+
+</div>
+
+<br/>
+
+> The original project **did not compile on Windows**. Three independent failures blocked any build attempt. I diagnosed each one, applied the fixes and documented the full process.
+
+<br/>
+
+<table>
+<tr>
+<td width="40px" align="center">📦</td>
+<td><strong>miniz — silent CMake failure</strong><br/>
+The original <code>CMakeLists.txt</code> tried to locate miniz via <code>find_path</code> pointing at MSYS2/MinGW64. No MSYS2 package installs it there, so CMake silently resolved <code>MINIZ_INC=NOTFOUND</code> and linking failed. Replaced the broken lookup with <code>add_subdirectory</code> over the upstream source, making it self-contained with no system package required.</td>
+</tr>
+<tr>
+<td width="40px" align="center">⚙️</td>
+<td><strong>xbyak — invisible missing dependency</strong><br/>
+The embedded shadPS4 shader recompiler uses xbyak for runtime x86-64 code generation. The original repo had <strong>no xbyak reference anywhere</strong> — no submodule, no CMake entry, nothing. Any Windows build attempt ended immediately with <code>fatal error: xbyak/xbyak.h: No such file or directory</code>. Added herumi/xbyak as a submodule and wired it into CMake.</td>
+</tr>
+<tr>
+<td width="40px" align="center">🔗</td>
+<td><strong>LTO — linker crash at the final step</strong><br/>
+With link-time optimization enabled globally, GCC's LTO pass discarded functions only referenced from inline assembly strings (<code>call pre_import_hook</code>, <code>call restore_guest_fs</code>), causing <code>undefined reference</code> errors at the very last link step — after everything else compiled successfully. Identified the interaction between <code>__attribute__((sysv_abi))</code> + <code>asm volatile</code> and LTO on Windows/MinGW. Disabled LTO selectively on the <code>bbport</code> target, preserving it for <code>bbgpu</code>.</td>
+</tr>
+<tr>
+<td width="40px" align="center">📄</td>
+<td><strong>Full porting documentation</strong><br/>
+Wrote a <a href="https://github.com/lucao019/bloodborne_pc_windows_port/blob/master/WINDOWS_BUILD_PORTING_LOG.md">807-line technical log</a> covering the complete build environment, all required MSYS2 packages, each error with root cause and fix, and a step-by-step reproduction guide for a clean Windows install.</td>
+</tr>
+</table>
+
+---
+
 ## 🧠 system.profile
 
 ```typescript
 const lucao019 = {
   focus:        "Practical software projects and PC/system optimization",
-  languages:    ["JavaScript", "TypeScript", "Python", "PowerShell"],
+  languages:    ["JavaScript", "TypeScript", "Python", "PowerShell", "C", "C++"],
   web:          ["HTML", "CSS", "React", "Vite", "Next.js"],
   backend:      ["Node.js", "Express", "REST APIs", "SQLite"],
   integrations: ["Discord Bots", "OBS Overlays", "Local-network Tools"],
-  tools:        ["Git", "Windows", "FFmpeg", "CLI Workflows"],
+  tools:        ["Git", "Windows", "FFmpeg", "CLI Workflows", "CMake", "GCC", "MSYS2"],
   method:       "prototype -> test -> measure -> refine",
   status:       "always building 🚀",
 };
