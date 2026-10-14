@@ -11,8 +11,6 @@
 <br/>
 
 <!-- BADGES -->
-<img src="https://komarev.com/ghpvc/?username=lucao019&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" alt="Profile Views"/>
-&nbsp;
 <img src="https://img.shields.io/badge/Focus-Practical%20Engineering-7c3aed?style=for-the-badge&labelColor=0d1117" alt="Focus"/>
 &nbsp;
 <img src="https://img.shields.io/badge/Status-Always%20Building-f59e0b?style=for-the-badge&labelColor=0d1117" alt="Status"/>
@@ -91,10 +89,6 @@ const lucao019 = {
 <br/><br/>
 
 <img width="60%" src="https://streak-stats.demolab.com/?user=lucao019&theme=tokyonight&hide_border=true&background=0d1117&ring=a78bfa&fire=f59e0b&currStreakLabel=a78bfa&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e" alt="GitHub Streak"/>
-
-<br/><br/>
-
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=lucao019&bg_color=0d1117&color=a78bfa&line=7c3aed&point=f59e0b&area=true&area_color=7c3aed&hide_border=true&custom_title=lucao019's%20Contribution%20Graph" alt="Activity Graph"/>
 
 </div>
 
