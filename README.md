@@ -48,7 +48,12 @@ prototipar → testar → medir → refinar
 
 **Linguagens**
 
-<img src="https://skillicons.dev/icons?i=js,ts,python,powershell,java,cpp&perline=6" alt="JavaScript, TypeScript, Python, PowerShell, Java e C++"/>
+<a href="https://developer.mozilla.org/docs/Web/JavaScript" title="JavaScript"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript"/></a>
+<a href="https://www.typescriptlang.org/docs/" title="TypeScript"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript"/></a>
+<a href="https://docs.python.org/3/" title="Python"><img src="https://skillicons.dev/icons?i=python" alt="Python"/></a>
+<a href="https://learn.microsoft.com/powershell/" title="PowerShell"><img src="https://skillicons.dev/icons?i=powershell" alt="PowerShell"/></a>
+<a href="https://docs.oracle.com/en/java/" title="Java"><img src="https://skillicons.dev/icons?i=java" alt="Java"/></a>
+<a href="https://isocpp.org/get-started" title="C++"><img src="https://skillicons.dev/icons?i=cpp" alt="C++"/></a>
 
 **Web e aplicações**
 
