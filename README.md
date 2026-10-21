@@ -57,15 +57,31 @@ prototipar → testar → medir → refinar
 
 **Web e aplicações**
 
-<img src="https://skillicons.dev/icons?i=html,css,react,vite,nextjs,nodejs,express,electron&perline=8" alt="HTML, CSS, React, Vite, Next.js, Node.js, Express e Electron"/>
+<a href="https://developer.mozilla.org/docs/Web/HTML" title="HTML"><img src="https://skillicons.dev/icons?i=html" alt="HTML"/></a>
+<a href="https://developer.mozilla.org/docs/Web/CSS" title="CSS"><img src="https://skillicons.dev/icons?i=css" alt="CSS"/></a>
+<a href="https://react.dev/" title="React"><img src="https://skillicons.dev/icons?i=react" alt="React"/></a>
+<a href="https://vite.dev/guide/" title="Vite"><img src="https://skillicons.dev/icons?i=vite" alt="Vite"/></a>
+<a href="https://nextjs.org/docs" title="Next.js"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js"/></a>
+<a href="https://nodejs.org/docs/latest/api/" title="Node.js"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js"/></a>
+<a href="https://expressjs.com/" title="Express"><img src="https://skillicons.dev/icons?i=express" alt="Express"/></a>
+<a href="https://www.electronjs.org/docs/latest" title="Electron"><img src="https://skillicons.dev/icons?i=electron" alt="Electron"/></a>
 
 **Ferramentas e plataformas**
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,windows,linux,android,sqlite&perline=7" alt="Git, GitHub, VS Code, Windows, Linux, Android e SQLite"/>
+<a href="https://git-scm.com/doc" title="Git"><img src="https://skillicons.dev/icons?i=git" alt="Git"/></a>
+<a href="https://docs.github.com/" title="GitHub"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
+<a href="https://code.visualstudio.com/docs" title="Visual Studio Code"><img src="https://skillicons.dev/icons?i=vscode" alt="Visual Studio Code"/></a>
+<a href="https://learn.microsoft.com/windows/" title="Windows"><img src="https://skillicons.dev/icons?i=windows" alt="Windows"/></a>
+<a href="https://www.kernel.org/doc/html/latest/" title="Linux"><img src="https://skillicons.dev/icons?i=linux" alt="Linux"/></a>
+<a href="https://developer.android.com/" title="Android"><img src="https://skillicons.dev/icons?i=android" alt="Android"/></a>
+<a href="https://www.sqlite.org/docs.html" title="SQLite"><img src="https://skillicons.dev/icons?i=sqlite" alt="SQLite"/></a>
 
 <br/>
 
-OBS · FFmpeg · ComfyUI · Discord
+<a href="https://obsproject.com/wiki/" title="OBS Studio">OBS</a>
+· <a href="https://ffmpeg.org/documentation.html" title="FFmpeg">FFmpeg</a>
+· <a href="https://docs.comfy.org/" title="ComfyUI">ComfyUI</a>
+· <a href="https://discord.com/developers/docs/intro" title="Discord">Discord</a>
 
 </div>
 
