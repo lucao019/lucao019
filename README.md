@@ -7,7 +7,7 @@
 Projetos práticos envolvendo software, hardware, IA local e otimização de sistemas.
 
 <a href="https://github.com/lucao019">
-  <img src="https://img.shields.io/badge/GitHub-lucao019-18181b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub lucao99999999999"/>
+  <img src="https://img.shields.io/badge/GitHub-lucao019-18181b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub lucao019"/>
 </a>
 <img src="https://img.shields.io/badge/FOCO-ENGENHARIA%20PR%C3%81TICA-7c3aed?style=for-the-badge&labelColor=111827" alt="Foco em engenharia prática"/>
 <img src="https://img.shields.io/badge/STATUS-EM%20CONSTRU%C3%87%C3%83O-f59e0b?style=for-the-badge&labelColor=111827" alt="Sempre construindo"/>
