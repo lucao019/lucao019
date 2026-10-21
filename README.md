@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1020,50:17152f,100:312e81&height=190&section=header&text=lucao019&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20%7C%20Hardware%20%7C%20Automa%C3%A7%C3%A3o&descAlignY=60&descSize=16&descColor=c4b5fd" alt="Cabeçalho lucao019"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:080b16,50:111827,100:312e81&height=190&section=header&text=lucao019&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=PowerShell%20%7C%20Software%20%7C%20Hardware%20%7C%20Automa%C3%A7%C3%A3o&descAlignY=60&descSize=16&descColor=67e8f9" alt="Cabeçalho lucao019"/>
 
 ### Construindo ferramentas úteis — do código à bancada.
 
@@ -9,22 +9,29 @@ Projetos práticos envolvendo software, hardware, IA local e otimização de sis
 <a href="https://github.com/lucao019">
   <img src="https://img.shields.io/badge/GitHub-lucao019-18181b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub lucao019"/>
 </a>
-<img src="https://img.shields.io/badge/FOCO-ENGENHARIA%20PR%C3%81TICA-7c3aed?style=for-the-badge&labelColor=111827" alt="Foco em engenharia prática"/>
+<img src="https://img.shields.io/badge/FOCO-ENGENHARIA%20PR%C3%81TICA-22d3ee?style=for-the-badge&labelColor=111827" alt="Foco em engenharia prática"/>
 <img src="https://img.shields.io/badge/STATUS-EM%20CONSTRU%C3%87%C3%83O-f59e0b?style=for-the-badge&labelColor=111827" alt="Sempre construindo"/>
 
 </div>
 
 ---
 
-## Sobre
+## `PS C:\Users\lucao019> Get-Profile`
 
-Gosto de transformar problemas do dia a dia em ferramentas que posso testar e melhorar. Trabalho principalmente com aplicações para Windows, integrações locais, automação, streaming e experimentos com IA executada no próprio PC.
+Transformo problemas do dia a dia em ferramentas que posso testar e melhorar. Trabalho principalmente com aplicações para Windows, integrações locais, automação, streaming e IA executada no próprio PC.
 
-```text
+```powershell
+PS> whoami
+lucao019 — software, hardware e automação
+
+PS> Get-Focus
+Windows · IA local · ferramentas práticas
+
+PS> Get-Workflow
 prototipar → testar → medir → refinar
 ```
 
-## Projetos em destaque
+## `PS> Get-Projects -Featured`
 
 | Projeto | O que é | Tecnologias |
 | --- | --- | --- |
@@ -42,7 +49,7 @@ prototipar → testar → medir → refinar
 
 ---
 
-## Tecnologias
+## `PS> Get-Stack`
 
 <div align="center">
 
@@ -87,17 +94,17 @@ prototipar → testar → medir → refinar
 
 ---
 
-## GitHub em números
+## `PS> Get-GitHubStats`
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=lucao019&show_icons=true&hide_border=true&bg_color=0b1020&title_color=c4b5fd&icon_color=f59e0b&text_color=cbd5e1&rank_icon=github" alt="Estatísticas do GitHub"/>
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=lucao019&show_icons=true&hide_border=true&bg_color=080b16&title_color=67e8f9&icon_color=f59e0b&text_color=cbd5e1&rank_icon=github" alt="Estatísticas do GitHub"/>
 &nbsp;
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucao019&layout=compact&hide_border=true&bg_color=0b1020&title_color=c4b5fd&text_color=cbd5e1&langs_count=8" alt="Linguagens mais usadas"/>
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucao019&layout=compact&hide_border=true&bg_color=080b16&title_color=67e8f9&text_color=cbd5e1&langs_count=8" alt="Linguagens mais usadas"/>
 
 <br/><br/>
 
-<img width="60%" src="https://streak-stats.demolab.com/?user=lucao019&hide_border=true&background=0b1020&ring=a78bfa&fire=f59e0b&currStreakLabel=c4b5fd&sideLabels=cbd5e1&currStreakNum=ffffff&sideNums=ffffff&dates=94a3b8" alt="Sequência de contribuições"/>
+<img width="60%" src="https://streak-stats.demolab.com/?user=lucao019&hide_border=true&background=080b16&ring=22d3ee&fire=f59e0b&currStreakLabel=67e8f9&sideLabels=cbd5e1&currStreakNum=ffffff&sideNums=ffffff&dates=94a3b8" alt="Sequência de contribuições"/>
 
 </div>
 
