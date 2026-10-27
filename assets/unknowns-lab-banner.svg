@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title description">
+  <title id="title">Unknowns Lab</title>
+  <desc id="description">Control Center para overlays, análise de inputs e diagnóstico de desempenho.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#100b20"/>
+      <stop offset="0.55" stop-color="#17122d"/>
+      <stop offset="1" stop-color="#081b25"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#9b7bff"/>
+      <stop offset="0.55" stop-color="#6f7cff"/>
+      <stop offset="1" stop-color="#42e8cf"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#795bff" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#795bff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#bcaeff" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="360" rx="28" fill="url(#background)"/>
+  <rect width="1280" height="360" rx="28" fill="url(#grid)"/>
+  <ellipse cx="270" cy="170" rx="270" ry="190" fill="url(#glow)" filter="url(#blur)">
+    <animate attributeName="cx" values="230;310;230" dur="9s" repeatCount="indefinite"/>
+  </ellipse>
+  <path d="M0 292H1280" stroke="url(#accent)" stroke-opacity=".42"/>
+  <path d="M0 293H1280" stroke="url(#accent)" stroke-opacity=".7" stroke-dasharray="2 18">
+    <animate attributeName="stroke-dashoffset" from="0" to="-80" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <g transform="translate(82 82)">
+    <rect width="58" height="58" rx="17" fill="#17132d" stroke="#9b7bff" stroke-opacity=".7"/>
+    <path d="M16 39V19l13 15 13-15v20" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="47" cy="13" r="3" fill="#42e8cf">
+      <animate attributeName="opacity" values=".4;1;.4" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <text x="82" y="205" fill="#f7f5ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="-2">Unknowns Lab</text>
+  <text x="86" y="250" fill="#c6bfdc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" letter-spacing=".4">CONTROL CENTER  /  OVERLAYS  /  PERFORMANCE LAB</text>
+  <g transform="translate(1004 92)" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 93h30l14-34 20 69 22-100 22 65 15-30h42"/>
+    <path d="M0 130h165" stroke-opacity=".18"/>
+    <circle cx="108" cy="28" r="5" fill="#42e8cf" stroke="none">
+      <animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;.55;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <text x="86" y="322" fill="#a79cbd" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" letter-spacing="2">LOCAL-FIRST  ·  READ-ONLY DIAGNOSTICS  ·  EXPLICIT CONTROLS</text>
+</svg>
