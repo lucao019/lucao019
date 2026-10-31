@@ -151,13 +151,10 @@ Um centro de controle desktop para reunir overlays, visualização de inputs e d
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=lucao019&show_icons=true&hide_border=true&bg_color=080b16&title_color=67e8f9&icon_color=f59e0b&text_color=cbd5e1&rank_icon=github" alt="Estatísticas do GitHub"/>
-&nbsp;
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucao019&layout=compact&hide_border=true&bg_color=080b16&title_color=67e8f9&text_color=cbd5e1&langs_count=8" alt="Linguagens mais usadas"/>
+<img width="49%" height="195" src="https://github-readme-stats.vercel.app/api?username=lucao019&show_icons=true&hide_border=true&bg_color=080b16&title_color=67e8f9&icon_color=f59e0b&text_color=cbd5e1&rank_icon=github" alt="Estatísticas do GitHub"/>
+<img width="49%" height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucao019&layout=compact&hide_border=true&bg_color=080b16&title_color=67e8f9&text_color=cbd5e1&langs_count=8" alt="Linguagens mais usadas"/>
 
-<br/><br/>
-
-<img width="60%" src="https://streak-stats.demolab.com/?user=lucao019&hide_border=true&background=080b16&ring=22d3ee&fire=f59e0b&currStreakLabel=67e8f9&sideLabels=cbd5e1&currStreakNum=ffffff&sideNums=ffffff&dates=94a3b8" alt="Sequência de contribuições"/>
+<img width="98%" src="https://streak-stats.demolab.com/?user=lucao019&hide_border=true&background=080b16&ring=22d3ee&fire=f59e0b&currStreakLabel=67e8f9&sideLabels=cbd5e1&currStreakNum=ffffff&sideNums=ffffff&dates=94a3b8" alt="Sequência de contribuições"/>
 
 <br/><br/>
 
