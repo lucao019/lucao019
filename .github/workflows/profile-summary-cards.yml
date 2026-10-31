@@ -1,0 +1,23 @@
+name: Gerar cards de estatisticas do perfil
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/profile-summary-cards.yml]
+  schedule:
+    - cron: "0 9 * * 1" # segundas 06:00 BRT
+
+permissions:
+  contents: write
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: lucao019
+          UTC_OFFSET: -3
