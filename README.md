@@ -28,26 +28,30 @@ IDEIA  →  PROTÓTIPO  →  TESTES  →  MELHORIA CONTÍNUA
 
 <div align="center">
 
-<a href="https://github.com/lucao019/unknownslab">
-  <img width="100%" src="./assets/unknowns-lab-banner.svg" alt="Unknowns Lab — Control Center, overlays e Performance Lab"/>
+<a href="https://github.com/lucao019/webcam-mic">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:080b16,100:111827&height=130&section=header&text=LUCAO%20LINK%20%E2%80%94%20webcam-mic&fontSize=38&fontColor=ffffff&fontAlignY=42&desc=ANDROID%20COMO%20WEBCAM%20DO%20PC%20%E2%80%A2%20USB%20%2B%20WI-FI%20%E2%80%A2%20LOW-LATENCY&descSize=14&descColor=67e8f9&descAlignY=68" alt="LUCAO LINK — Android como webcam do PC via USB e Wi-Fi"/>
 </a>
 
-### [Unknowns Lab — Control Center](https://github.com/lucao019/unknownslab)
+### [LUCAO LINK (webcam-mic)](https://github.com/lucao019/webcam-mic)
 
-Um centro de controle desktop para reunir overlays, visualização de inputs e diagnóstico local de desempenho em uma experiência integrada.
+Transforma a câmera e o microfone do celular Android em fonte de vídeo e áudio do PC, por USB (túnel `adb reverse`) ou Wi-Fi. O vídeo H.264 é remuxado para fMP4 e reproduzido por um player desktop customizado com Media Source Extensions, mantendo a latência próxima do tempo real.
 
-<a href="https://github.com/lucao019/unknownslab"><img src="https://img.shields.io/badge/Electron-45-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron 45"/></a>
-<a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-18%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js 18 ou superior"/></a>
-<a href="https://dotnet.microsoft.com/"><img src="https://img.shields.io/badge/.NET-10-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET 10"/></a>
-<a href="https://learn.microsoft.com/windows/"><img src="https://img.shields.io/badge/Windows-x64-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows x64"/></a>
+<a href="https://github.com/lucao019/webcam-mic"><img src="https://img.shields.io/badge/Electron-45-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron 45"/></a>
+<a href="https://github.com/lucao019/webcam-mic"><img src="https://img.shields.io/badge/Node.js-20%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js 20 ou superior"/></a>
+<a href="https://github.com/lucao019/webcam-mic"><img src="https://img.shields.io/badge/Android-CameraX-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android CameraX"/></a>
+<a href="https://github.com/lucao019/webcam-mic"><img src="https://img.shields.io/badge/Release-v1.2.0-16a34a?style=flat-square" alt="Release v1.2.0"/></a>
 
 <br/>
 
-<a href="https://github.com/lucao019/unknownslab">Explorar o projeto →</a>
-·
-<a href="https://github.com/lucao019/unknownslab/blob/main/CHANGELOG.md">Ver atualizações →</a>
+<a href="https://github.com/lucao019/webcam-mic">Explorar o projeto →</a>
 
 </div>
+
+**Destaques de engenharia:** player de baixa latência com MSE, descoberta automática do PC na LAN, controle remoto de zoom/lente/flash, suporte multi-dispositivo e watchdogs de autorrecuperação. Versão 1.2.0, com changelog técnico de 31 checkpoints documentando evolução real (latência, keyframes, fila TCP, seleção de lente).
+
+## Unknowns Lab — em desenvolvimento (repositório privado)
+
+Um centro de controle desktop para reunir overlays, visualização de inputs e diagnóstico local de desempenho em uma experiência integrada.
 
 ### O que estou construindo
 
@@ -58,16 +62,18 @@ Um centro de controle desktop para reunir overlays, visualização de inputs e d
 | **Movement Lab** | Visualização de curvas e perfis locais, com ativação explícita dos controles. |
 | **PUBG Performance Lab** | Diagnóstico do sistema, sensores disponíveis e comparação local de perfis NVIDIA em modo somente leitura. |
 
-> **Estado do projeto:** desenvolvimento ativo. Dados sem fonte validada são apresentados como indisponíveis; diagnósticos de desempenho não prometem ganhos nem alteram configurações do sistema.
+> **Estado do projeto:** desenvolvimento ativo, com releases versionadas e instaladores próprios; o código segue em repositório privado. Dados sem fonte validada são apresentados como indisponíveis; diagnósticos de desempenho não prometem ganhos nem alteram configurações do sistema.
 
 ## Outros projetos
 
 | Projeto | Descrição | Tecnologias |
 | --- | --- | --- |
+| [EasyRomsToOPL](https://github.com/lucao019/easyromstooplps2) | Instala jogos de PS2 em pendrive OPL arrastando o arquivo (.iso/.zip/.rar/.7z), sem corromper o `ul.cfg`; GUI WPF nativa e CLI sobre o mesmo motor. 323 testes passando, licença MIT. | PowerShell · WPF |
+| [Nexa Transcrição](https://github.com/lucao019/typewriter) | Aplicativo desktop para transcrever áudio e vídeo 100% localmente (whisper.cpp + FFmpeg), focado em PT-BR; distribuído como instalador Windows. | Electron · React · TypeScript · whisper.cpp |
+| [CheckIn — Discord Bot](https://github.com/lucao019/discordbotbylucao99999999999) | Check-in de membros com cards de perfil gerados em sharp (banners GIF), OCR de imagens em PT/EN e transcrição de áudio com whisper.cpp local; CI no GitHub Actions e Dockerfile. | TypeScript · Node.js · discord.js |
+| [NVIDIA NIM + VS Code](https://github.com/lucao019/NVIDIA-NIM-VS-Code) | Guia e scripts para usar modelos NVIDIA NIM como provider no VS Code no Windows, com a chave de API protegida no Gerenciador de Credenciais. | Node.js · PowerShell |
 | [ComfyUI Stack — até 8 GB de VRAM](https://github.com/lucao019/ComfyUI-Stack-8GB-Vram-ou-menos) | Guia e scripts para configurar geração de vídeo com MiniMax H3 em hardware limitado; workflow testado em uma RTX 2060 de 6 GB. | Python · ComfyUI |
 | [Assistente de Bancada](https://github.com/lucao019/assistente-bancada) | Assistente de IA local para reparo eletrônico, com análise de imagens, consulta a esquemáticos em PDF e histórico de atendimentos. | Electron · Node.js · SQLite · llama.cpp |
-| [CheckIn — Discord Bot](https://github.com/lucao019/discordbotbylucao99999999999) | Bot de check-in de membros com cards de perfil e ferramentas de extração de texto por OCR. | TypeScript · Node.js · discord.js |
-| [LUCAO LINK](https://github.com/lucao019/cam-audio-to-windows) | Projeto Android + Windows para transmitir vídeo H.264 do celular pela rede local; recursos de áudio seguem em desenvolvimento. | Java · Node.js · FFmpeg |
 
 <div align="center">
 
