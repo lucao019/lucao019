@@ -96,23 +96,47 @@ Um centro de controle desktop para reunir overlays, visualização de inputs e d
 <a href="https://docs.oracle.com/en/java/" title="Java"><img src="https://skillicons.dev/icons?i=java" alt="Java"/></a>
 <a href="https://learn.microsoft.com/powershell/" title="PowerShell"><img src="https://skillicons.dev/icons?i=powershell" alt="PowerShell"/></a>
 
-**Aplicações e infraestrutura**
+**Frontend e apps desktop**
 
 <a href="https://www.electronjs.org/docs/latest" title="Electron"><img src="https://skillicons.dev/icons?i=electron" alt="Electron"/></a>
+<a href="https://react.dev/" title="React"><img src="https://skillicons.dev/icons?i=react" alt="React"/></a>
+<a href="https://vite.dev/" title="Vite"><img src="https://skillicons.dev/icons?i=vite" alt="Vite"/></a>
+<a href="https://learn.microsoft.com/dotnet/" title=".NET / WPF"><img src="https://skillicons.dev/icons?i=dotnet" alt=".NET"/></a>
+<a href="https://developer.android.com/media/camera/camerax" title="Android / CameraX"><img src="https://skillicons.dev/icons?i=androidstudio" alt="Android"/></a>
+
+**Backend e dados**
+
 <a href="https://nodejs.org/docs/latest/api/" title="Node.js"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js"/></a>
 <a href="https://expressjs.com/" title="Express"><img src="https://skillicons.dev/icons?i=express" alt="Express"/></a>
 <a href="https://www.sqlite.org/docs.html" title="SQLite"><img src="https://skillicons.dev/icons?i=sqlite" alt="SQLite"/></a>
-<a href="https://git-scm.com/doc" title="Git"><img src="https://skillicons.dev/icons?i=git" alt="Git"/></a>
-<a href="https://docs.github.com/" title="GitHub"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
-<a href="https://code.visualstudio.com/docs" title="Visual Studio Code"><img src="https://skillicons.dev/icons?i=vscode" alt="Visual Studio Code"/></a>
 
-<br/>
+**IA e mídia local**
 
-<a href="https://obsproject.com/wiki/" title="OBS Studio">OBS Studio</a>
+<a href="https://github.com/ggml-org/whisper.cpp" title="whisper.cpp">whisper.cpp</a>
+· <a href="https://github.com/ggml-org/llama.cpp" title="llama.cpp">llama.cpp</a>
 · <a href="https://ffmpeg.org/documentation.html" title="FFmpeg">FFmpeg</a>
 · <a href="https://docs.comfy.org/" title="ComfyUI">ComfyUI</a>
-· <a href="https://discord.com/developers/docs/intro" title="Discord">Discord</a>
+
+**Automação e integrações**
+
+<a href="https://discord.js.org/" title="discord.js">discord.js</a>
+· <a href="https://tesseract-ocr.github.io/" title="Tesseract OCR">Tesseract OCR</a>
+· <a href="https://sharp.pixelplumbing.com/" title="sharp">sharp</a>
+· <a href="https://obsproject.com/wiki/" title="OBS Studio">OBS Studio</a>
 · <a href="https://developer.android.com/" title="Android">Android</a>
+
+**Qualidade e entrega**
+
+<a href="https://www.docker.com/" title="Docker"><img src="https://skillicons.dev/icons?i=docker" alt="Docker"/></a>
+<a href="https://docs.github.com/actions" title="GitHub Actions"><img src="https://skillicons.dev/icons?i=github" alt="GitHub Actions"/></a>
+<a href="https://learn.microsoft.com/windows/" title="Windows"><img src="https://skillicons.dev/icons?i=windows" alt="Windows"/></a>
+<a href="https://git-scm.com/doc" title="Git"><img src="https://skillicons.dev/icons?i=git" alt="Git"/></a>
+<a href="https://code.visualstudio.com/docs" title="Visual Studio Code"><img src="https://skillicons.dev/icons?i=vscode" alt="Visual Studio Code"/></a>
+<br/>
+<a href="https://vitest.dev/" title="Vitest">Vitest</a>
+· <a href="https://xunit.net/" title="xUnit">xUnit</a>
+· <a href="https://docs.github.com/actions" title="GitHub Actions">GitHub Actions (CI)</a>
+· <a href="https://www.electron.build/" title="electron-builder">electron-builder</a>
 
 </div>
 
